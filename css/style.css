@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0 1em;
+}
+
+h1,
+h2,
+h3 {
+    text-align:center;
+}
+
+h2,
+h3 {
+    text-transform: uppercase;
+}
+
+/*  */
+
+.main-header {
+    background-color: rgb(250, 250, 250);
+}
+
+.name {
+    text-align: center;
+    padding-top: .1em;
+}
+
+.main-nav {
+    padding-left: 0;
+    margin: 1em;
+}
+
+.main-nav li {
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: white;
+    padding: 1em;
+    margin: .4em;
+}
+
+.main-nav li a {
+    color: black;
+}
+
+.banner {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.banner p {
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+.main-content {
+
+}
+
+.main-content h2 {
+    padding: 1.5em;
+}
+
+.portfolio-item {
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 90%;
+}
+
+.portfolio-item p {
+    padding-bottom: 2em;
+}
+
+.main-footer {
+    background-color: rgb(245, 245, 245);
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.footer-name {
+    float: left;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.back-to-top {
+    float: right;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
